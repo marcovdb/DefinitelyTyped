@@ -41,6 +41,8 @@ declare namespace WordCloud {
 		gridSize?: number;
 		/** origin of the “cloud” in [x, y]. */
 		origin?: [number, number];
+		/** set to true to allow word being draw partly outside of the canvas. Allow word bigger than the size of the canvas to be drawn. */
+		drawOutOfBounds?: boolean;
 
 		/** visualize the grid by draw squares to mask the drawn areas. */
 		drawMask?: boolean;
